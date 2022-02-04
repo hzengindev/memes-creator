@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Oswald", sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  font-size: 50px;
+}
+
+header .desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 400px;
+}
+
+.download {
+  background: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.maker {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 128px;
+}
+
+.maker .draft,
+.maker .result {
+  position: relative;
+}
+
+.maker .text-input {
+  font-size: 22px;
+  color: #fff;
+  padding: 0px 10px 0px 10px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 310px;
+  height: 64px;
+  border: none;
+  background: #00000080;
+}
+
+.maker .text-span {
+  font-size: 22px;
+  color: #fff;
+  padding: 0px 10px 0px 10px;
+  position: absolute;
+  text-align: center;
+  left: 0;
+  width: 310px;
+  height: 64px;
+  border: none;
+  background: #00000080;
+  white-space: pre-line;
+}
+
+.draft .text-input:nth-child(1) {
+  top: 120px;
+}
+
+.draft .text-input:nth-child(2) {
+  top: 305px;
+}
+
+.draft .text-input:nth-child(3) {
+  top: 495px;
+}
+
+.draft .text-input:nth-child(4) {
+  top: 680px;
+}
+
+.draft .text-input:nth-child(5) {
+  top: 865px;
+}
+
+.result .text-span:nth-child(1) {
+  top: 120px;
+}
+
+.result .text-span:nth-child(2) {
+  top: 305px;
+}
+
+.result .text-span:nth-child(3) {
+  top: 495px;
+}
+
+.result .text-span:nth-child(4) {
+  top: 680px;
+}
+
+.result .text-span:nth-child(5) {
+  top: 865px;
+}
